@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#ffffff">
+  <!-- Kräftige äußere Box-Kontur -->
+  <path d="M12 2.5L20 7.1v9.8L12 21.5L4 16.9V7.1Z" fill="none" fill-opacity="0" stroke="#ffffff" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Feinere innere Box-Kanten -->
+  <path d="M12 11.7V21.5" fill="none" fill-opacity="0" stroke="#ffffff" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12 11.7L4 7.1" fill="none" fill-opacity="0" stroke="#ffffff" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12 11.7L20 7.1" fill="none" fill-opacity="0" stroke="#ffffff" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Klebeband über dem Deckel mit umgeklappter Lasche rechts -->
+  <path d="M8.95 4.25L16.95 8.85V12.15L15.05 13.25V9.95L7.05 5.35" fill="none" fill-opacity="0" stroke="#ffffff" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Ausgefüllte Doppelachtel-Note auf der linken Boxseite -->
+  <path d="M6.95 15.15V11.85Q6.95 11.35 7.40 11.60L9.80 12.92Q10.20 13.14 10.20 13.60V16.75H9.50V13.85L7.65 12.83V15.15Z" fill="#ffffff" fill-opacity="1" stroke="none" />
+  <ellipse cx="6.65" cy="15.15" rx="1.05" ry="0.78" transform="rotate(-15 6.65 15.15)" fill="#ffffff" fill-opacity="1" stroke="none" />
+  <ellipse cx="9.20" cy="16.75" rx="1.05" ry="0.78" transform="rotate(-15 9.20 16.75)" fill="#ffffff" fill-opacity="1" stroke="none" />
+</svg>
