@@ -14,7 +14,12 @@
 
     body {
         display: flex;
+        flex-direction: column;
         background-color: rgb(49, 49, 49);
+    }
+
+    main {
+        min-height: 100dvh;
     }
 
     .Show {
