@@ -30,7 +30,7 @@
             <img src="./assets/icons/lettering.svg" alt="">
         </div>
         <button type="button" class="MenuButton Hide">
-            <img src="./assets/icons/burger-menu.svg" alt="">
+            <img src="./assets/icons/burger-menu-button.svg" alt="">
         </button>
     </header>
     <!-- ------------------------------------------------------------- -->
@@ -56,19 +56,47 @@
             <img src="./assets/icons/copyright.svg" alt="copy">
             <p>Soulmatic Sounds</p>
         </div>
-
-        <section id="idMobileFooter" class="MobileFooter Hide">
-            <img src="./assets/icons/home.svg" alt="ho">
-            <img src="./assets/icons/contact.svg" alt="co">
-            <img src="./assets/icons/list.svg" alt="li">
-            <div id="idBasketFooterWrapper" class="BasketWrapper">
-                <img src="./assets/icons/basket.svg" alt=" b">
-                <p id="idCurrentBasketAmount">1</p>
-            </div>
-        </section>
     </footer>
     <!-- ------------------------------------------------------------- -->
+    <!-- #region  MOBILE NAVIGATION  -->
+    <nav id="idMobileNavigation" class="MobileNavigation Show">
+        <ul id="idMobileNavigationLinkWrapper" class="MobileNavigationLinkWrapper Show">
+            <li id="idMobileNavigationLinkHome" class="MobileNavigationLinkHome">
+                <a id="idLinkToHome" class="MobileNavigationLink">
+                    <button id="idHomeButton" type="button" class="MobileNavigationButton">
+                        <img id="idHomeIcon" class="HomeIcon" src="./assets/icons/home-button.svg" alt="house icon">
+                    </button>
+                </a>
+            </li>
+            <li id="idMobileNavigationProfileLink" class="MobileNavigationProfileLink">
+                <a id="idLinkToProfile" class="MobileNavigationLink">
+                    <button id="idProfileButton" type="button" class="MobileNavigationButton">
+                        <img id="idProfileIcon" class="ProfileIcon" src="./assets/icons/profile-button.svg"
+                            alt="silhouette of a person icon">
+                    </button>
+                </a>
+            </li>
+            <li id="idMobileNavigationOrderHistoryLink" class="MobileNavigationOverviewLink">
+                <a id="idLinkToOrderHistory" class="MobileNavigationLink">
+                    <button type="button" id="idOrderHistoryButton" class="MobileNavigationButton OrderHistoryButton">
+                        <img id="idOrderHistoryIcon" class="OrderHistoryIcon"
+                            src="./assets/icons/order-history-button.svg" alt="order overview list icon ">
+                    </button>
+                </a>
+            </li>
+            <li id="idMobileNavigationShoppingCartLink" class="MobileNavigationLinkHome">
 
+                <a id="" class="MobileNavigationLink">
+                    <button type="button" id="idShoppingCartButton" class="MobileNavigationButton ShoppingCartButton">
+                        <img src="./assets/icons/shopping-trolley.svg" alt="shopping trolley icon">
+                        <p id="idCurrentShoppingCartContent" class="CurrentShoppingCartContent">1</p>
+                    </button>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- #endregion -->
+    <!-- ------------------------------------------------------------- -->
 </body>
 
 </html>
