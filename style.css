@@ -24,6 +24,35 @@
     /* ------------------------------------------------------------- */
 
     /* #region   FOOTER  */
+    .MainFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+        background-color: rgba(114, 109, 109, 1);
+        padding: 1.125rem 1rem;
+    }
+
+    .InternalLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .InternalLinks a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .CopyrightWrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+        gap: 0.25rem;
+    }
 
     /* #endregion */
     /* ------------------------------------------------------------- */
