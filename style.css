@@ -208,7 +208,162 @@
 
     /* #endregion */
     /* ------------------------------------------------------------- */
+    /* #region  MOBILE SHOPING CART   */
+    .MobileShopingCart {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        width: 21rem;
+        height: 41rem;
+        background-color: rgb(26, 26, 26);
+        border-radius: 1.75rem 1.75rem 0 0;
+        padding: 2.375rem 1.75rem;
+    }
 
+    .MobileDialogCloseBtn {
+        all: unset;
+        position: absolute;
+        top: 1.625rem;
+        right: 1.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-image: url(./assets/icons/close-icon.svg);
+    }
+
+    .MobileShopingCartHeading {
+        color: rgb(228, 122, 255);
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .ShopingCartCurrentContent {
+        display: flex;
+        width: 18.75rem;
+        height: 20.8125rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(114, 114, 114);
+        overflow: scroll;
+    }
+
+    .ShopingCartArticle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 1.25rem;
+
+
+    }
+
+    .ShopingCartArticleLine1Wrapper {
+        display: flex;
+        width: 100%;
+        /* height: 3.375rem; */
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .ShopingCartIndividualChoise {
+        max-width: 80%;
+        overflow-wrap: break-word;
+        color: white;
+        font-size: 1.375rem;
+        font-weight: bold;
+    }
+
+    .DeleteObjectOfDesire {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-image: url(./assets/icons/delete.svg);
+    }
+
+    .ShopingCartArticleLine2Wrapper {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .LicenseSelectAreaWrapper {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .SelectButtonWrapper {
+        display: flex;
+    }
+
+    .LabelSelect {
+        text-align: center;
+    }
+
+    .DecreaseLicense,
+    .DecreaseFormatType {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-image: url(./assets/icons/arrow-downward.svg);
+        cursor: pointer;
+    }
+
+    .IncreaseLicenseLevel,
+    .IncreaseFormatType {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-image: url(./assets/icons/arrow-upward.svg);
+        cursor: pointer;
+    }
+
+
+    .FormatSelectAreaWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CurrentPrice {
+        display: flex;
+        margin-left: auto;
+        margin-top: auto;
+    }
+
+
+    .ShopingCartPriceCalculation {
+        display: strech;
+        width: 100%;
+        color: white;
+        justify-content: center;
+    }
+
+    .ShopingCartTableRow {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Summary {
+        border-top: 1px solid white
+    }
+
+    /* #endregion */
+    /* ------------------------------------------------------------- */
 
     /* #endregion */
     /* ------------------------------------------------------------- */
