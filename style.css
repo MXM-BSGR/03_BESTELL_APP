@@ -88,6 +88,7 @@
 
     .ColoredPartOfHeading {
         color: blueviolet;
+        font-family: var(--heading-font);
     }
 
     .SubHeading {
@@ -197,7 +198,7 @@
         font-weight: 600;
     }
 
-    .AddToShoppingCartButton {
+    .AddToShopingCartButton {
         height: 1.875rem;
         all: unset;
         background-color: rgb(255, 223, 251);
@@ -214,11 +215,13 @@
         position: relative;
         flex-direction: column;
         align-items: center;
-        width: 21rem;
+        /* width: 21.4375rem; */
+        width: calc(100% - 2rem);
         height: 41rem;
         background-color: rgb(26, 26, 26);
         border-radius: 1.75rem 1.75rem 0 0;
-        padding: 2.375rem 1.75rem;
+        padding: 2.375rem 1.375rem;
+        /* margin-inline: 1rem; */
     }
 
     .MobileDialogCloseBtn {
@@ -239,14 +242,20 @@
     }
 
     .ShopingCartCurrentContent {
+        position: relative;
         display: flex;
-        width: 18.75rem;
+        /* width: 18.75rem; */
+        width: calc(100% + 0.375rem);
         height: 20.8125rem;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
-        background-color: rgb(114, 114, 114);
-        overflow: scroll;
+        align-items: flex-start;
+        /* background-color: rgb(114, 114, 114); */
+        overflow-y: scroll;
+        scrollbar-gutter: stable;
+        padding-right: 0.375rem;
+        gap: 0.625rem;
+        /* test */
     }
 
     .ShopingCartArticle {
@@ -256,7 +265,9 @@
         gap: 0.5rem;
         width: 100%;
         padding: 0.5rem;
+
         border-radius: 1.25rem;
+        background-color: rgb(187, 228, 255);
 
 
     }
@@ -266,15 +277,17 @@
         width: 100%;
         /* height: 3.375rem; */
         justify-content: space-between;
-        gap: 2rem;
+        /* gap: 2rem; */
+        background-color: rgb(148, 182, 204);
+        border-radius: 0.75rem 0.75rem 0 0;
     }
 
     .ShopingCartIndividualChoise {
-        max-width: 80%;
         overflow-wrap: break-word;
         color: white;
         font-size: 1.375rem;
         font-weight: bold;
+        padding: 0.5rem 0.5rem 0 0.5rem;
     }
 
     .DeleteObjectOfDesire {
@@ -285,6 +298,10 @@
         width: 1.5rem;
         height: 1.5rem;
         background-image: url(./assets/icons/delete.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin: 0.5rem 0.5rem 0 0;
     }
 
     .ShopingCartArticleLine2Wrapper {
@@ -306,6 +323,8 @@
 
     .LabelSelect {
         text-align: center;
+        border-bottom: 0.0625rem solid white;
+        color: rgb(112, 112, 112);
     }
 
     .DecreaseLicense,
@@ -344,22 +363,68 @@
         margin-top: auto;
     }
 
+    /* #region  SCROLLBAR  */
+    .ShopingCartCurrentContent::-webkit-scrollbar {
+        position: absolute;
+        right: -0.375rem;
+        width: 0.375rem;
+        /* padding-left: 0.375rem; */
+
+
+
+    }
+
+    .ShopingCartCurrentContent::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .ShopingCartCurrentContent::-webkit-scrollbar-thumb {
+        background-color: yellowgreen;
+        /* width: 0.375rem; */
+
+        border-radius: 0.1875rem;
+    }
+
+    /* #endregion */
+    /* ------------------------------------------------------------- */
+
 
     .ShopingCartPriceCalculation {
         display: strech;
         width: 100%;
         color: white;
         justify-content: center;
+        padding: 0.625rem 0 0 0;
     }
 
     .ShopingCartTableRow {
         display: flex;
         width: 100%;
         justify-content: space-between;
+        padding: 0;
+    }
+
+    .TableHeading {
+        padding: 0;
+    }
+
+    .DeliveryCost {
+        padding: 0.5rem 0 1rem 0;
     }
 
     .Summary {
-        border-top: 1px solid white
+        border-top: 1px solid white;
+        padding: 0.5rem 0 0 0;
+    }
+
+    .PurchaseConfirmButton {
+        all: unset;
+        background-color: rgb(93, 181, 233);
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        border-radius: 3.75rem;
     }
 
     /* #endregion */
@@ -375,7 +440,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 5rem;
+        height: 8rem;
         background-color: rgba(114, 109, 109, 1);
         padding: 1.125rem 1rem;
         margin-bottom: 5rem;
@@ -456,11 +521,11 @@
         height: 1.875rem;
     }
 
-    .ShoppingCartButton {
+    .ShopingCartButton {
         position: relative;
     }
 
-    .CurrentShoppingCartContent {
+    .CurrentShopingCartContent {
         display: flex;
         justify-content: center;
         align-items: center;
